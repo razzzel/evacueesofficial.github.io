@@ -1,0 +1,352 @@
+@media (max-width: 1200px) {
+    .circle-button {
+        width: 200px;
+        height: 200px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 1200px) {
+    /* Adjust button size for smaller screens */
+    .button {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+
+    .button i {
+        margin-bottom: 3px;
+    }
+
+    /* You can add more responsive styles as needed */
+}
+.button {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 3);
+    border: none;
+    border-radius: 4px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.button i {
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    box-shadow: transparent;
+}
+
+.button:focus i {
+    color: #007dff;
+}
+
+.button:active {
+    box-shadow: transparent;
+}
+
+.button:active i {
+    color: #007dff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    /* Adjust button size for smaller screens */
+    .button {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+
+    .button i {
+        margin-bottom: 3px;
+    }
+
+    /* You can add more responsive styles as needed */
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Align buttons to the left, middle, and right */
+    align-items: center; /* Vertically center items */
+
+}
+
+        /* styles.css */
+.wave-button {
+    background-color: transparent; /* Set the background color to transparent */
+    color: rgba(0, 0, 0, 3); /* Make the text color transparent */
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center; /* Center the text horizontally */
+}
+
+.wave-button i {
+    margin-bottom: 5px; /* Add some space between the icon and text */
+}
+
+.wave-button:hover {
+    box-shadow: transparent;
+}
+.wave-button:focus i {
+    color: skyblue;
+}
+
+
+.wave-button:active {
+    box-shadow: transparent;
+}
+
+/* Make the icon transparent on button click */
+.wave-button:active i {
+    color: skyblue; /* Adjust the alpha (transparency) value as needed */
+}
+
+/*fire button*/
+.fire-button {
+    background-color: transparent; /* Set the background color to transparent */
+    color: rgba(0, 0, 0, 3); /* Make the text color transparent */
+    border: none;
+    border-radius: 4px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center; /* Center the text horizontally */
+}
+
+.fire-button i {
+    margin-bottom: 5px; /* Add some space between the icon and text */
+}
+
+.fire-button:hover {
+    box-shadow: transparent;
+}
+.fire-button:focus i {
+    color: red;
+}
+
+
+.fire-button:active {
+    box-shadow: transparent;
+}
+
+/* Make the icon transparent on button click */
+.fire-button:active i {
+    color: red; /* Adjust the alpha (transparency) value as needed */
+}
+
+
+/*earthquake button*/
+.earth-button {
+    background-color: transparent; /* Set the background color to transparent */
+    color: rgba(0, 0, 0, 3); /* Make the text color transparent */
+    border: none;
+    border-radius: 4px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center; /* Center the text horizontally */
+}
+
+.earth-button i {
+    margin-bottom: 5px; /* Add some space between the icon and text */
+}
+
+.earth-button:hover {
+    box-shadow: transparent;
+}
+.earth-button:focus i {
+    color: brown;
+}
+
+
+.earth-button:active {
+    box-shadow: transparent;
+}
+
+/* Make the icon transparent on button click */
+.earth-button:active i {
+    color: brown; /* Adjust the alpha (transparency) value as needed */
+}
+
+/*gun button*/
+
+.gun-button {
+    background-color: transparent; /* Set the background color to transparent */
+    color: rgba(0, 0, 0, 3); /* Make the text color transparent */
+    border: none;
+    border-radius: 4px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center; /* Center the text horizontally */
+}
+
+.gun-button i {
+    margin-bottom: 5px; /* Add some space between the icon and text */
+}
+
+.gun-button:hover {
+    box-shadow: transparent;
+}
+.gun-button:focus i {
+    color: gold;
+}
+
+
+.gun-button:active {
+    box-shadow: transparent;
+}
+
+/* Make the icon transparent on button click */
+.gun-button:active i {
+    color: gold; /* Adjust the alpha (transparency) value as needed */
+}
+
+.font{
+    font-size: 20px;
+
+}
+.font2{
+    font-size: 20px;
+}
+/*line*/
+
+
+.horizontal-line {
+    border: none; /* Remove the default line style */
+    margin-top: 50px;
+    height: 2px; /* Set the height of the line */
+    background-color: blue /* Set the line color (black in this example) */
+}
+.horizontal-line2 {
+    border: none; /* Remove the default line style */
+    margin-top: 20px;
+    height: 2px; /* Set the height of the line */
+    background-color: blue /* Set the line color (black in this example) */
+}
+
+
+.button-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Add spacing below the button */
+}
+.circle-button {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Makes the button circular */
+    font-size: 30px;
+    background-color: white;
+    font-family: unset;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(0,140,255);
+    box-shadow:
+    inset 0px 0px 1px 1px hsla(350,80%,30%,0.9),
+    inset 0px 0px 2px 3px hsla(350,80%,50%,0.9),
+    inset 1px 1px 1px 4px hsla(350,80%,100%,0.8),
+    inset 0px 0px 2px 7px hsla(350,80%,60%,0.8),
+    inset 0px 0px 4px 10px hsla(350,80%,50%,0.9),
+    8px 10px 2px 6px hsla(350,80%,20%,0.55),
+    0px 0px 3px 2px hsla(350,80%,40%,0.9),
+    0px 0px 2px 6px hsla(350,80%,50%,0.9),
+    /*0px 0px 2px 3px hsla(350,80%,60%,0.9),*/
+    -1px -1px 1px 6px hsla(350,80%,100%,0.9),
+    /*0px 0px 2px 8px hsla(350,80%,60%,0.9),*/
+    0px 0px 2px 11px hsla(350,80%,50%,0.9),
+    0px 0px 1px 12px hsla(350,80%,40%,0.9),
+    1px 3px 14px 14px hsla(350,80%,0%,0.4)
+  ;
+
+    }
+
+.circle-button:hover .font2:focus {
+    
+    box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+
+}
+
+.circle-button:active {
+  color:hsla(350,0%,85%,1); padding:26px 34px 22px 38px;
+  background-image:
+    linear-gradient(273deg,hsla(350,80%,50%,1) 50%, hsla(350,80%,55%,1) 60%)
+  ;
+  box-shadow:
+    inset 3px 4px 3px 2px hsla(350,80%,20%,0.55),
+    inset 0px 0px 1px 1px hsla(350,80%,30%,0.9),
+    inset -1px -1px 2px 3px hsla(350,80%,50%,0.9),
+    inset -2px -2px 1px 3px hsla(350,80%,100%,0.8),
+    inset 0px 0px 2px 7px hsla(350,80%,60%,0.8),
+    inset 0px 0px 3px 10px hsla(350,80%,50%,0.9),
+    
+    0px 0px 3px 2px hsla(350,80%,40%,0.9),
+    0px 0px 2px 6px hsla(350,80%,50%,0.9),
+    /*0px 0px 2px 3px hsla(350,80%,60%,0.9),*/
+    -1px -1px 1px 6px hsla(350,80%,100%,0.9),
+    /*0px 0px 2px 8px hsla(350,80%,60%,0.9),*/
+    0px 0px 2px 11px hsla(350,80%,50%,0.9),
+    0px 0px 1px 12px hsla(350,80%,40%,0.9),
+    1px 3px 14px 14px hsla(350,80%,0%,0.4)
+  ;
+}
+
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width: 190px;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(100, 100, 100);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: #e8e8e8;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(150, 150, 200);
+}
+
+
+@-webkit-keyframes pulse-bg  
+{
+0% {background-color: #ff2d2d;} 
+100% {background-color: #2c3e50;}
+}
+
